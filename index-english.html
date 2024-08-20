@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+<body>
+    <!--Top bar-->
+    <div class="container_header">
+        <header>
+            <div class="logo">
+                <a href="#">Danyelle Giraldo</a>
+            </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#inicio">HOME</a></li>
+                        <li><a href="#sobremi">ABOUT ME</a></li>
+                        <li><a href="#proyectos">PROJECTS</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#contacto">CONTACT</a></li>
+                        <li><a href="./index.html">VERSION EN ESPAÑOL</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <nav class="nav_responsive">
+                        <i class="fa-solid fa-bars"></i>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!--Home-->
+    <section id="inicio" class="inicio">
+        <div class="container_tarjeta">
+            <div class="container_imagen">
+                <img src="./images/yo.jpeg" width="200px" alt="Danyelle">
+            </div>
+            <h1>Danyelle Giraldo Jimenez</h1>
+            <h2>Backend Developer</h2>
+            <div class="redes">
+                <a target="_blank" href="https://www.linkedin.com/in/juliándavidpineroscoronado/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://github.com/JulianCoronado17"><i class="fa-brands fa-github"></i></a>
+                <button class="btn-cv" id="btn-cv">View CV</button>
+            </div>
+        </div>        
+    </section>
+    <!--About me-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido_section">
+            <h2>About Me</h2>
+            <p>Hello! My name is Danyelle Giraldo. I enjoy creating efficient and scalable solutions and bring a positive attitude to every project I participate in. I am expanding my skills through continuous studies on topics I am passionate about, such as programming. My goal is to become a senior systems engineer specializing in Java, Spring Boot, and SQL databases, excelling in multidisciplinary teams.</p>
+            <div class="fila">
+                <!--Interests-->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor_intereses">
+                         <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>READING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>GYM</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>CODE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-basketball"></i>
+                            <span>BASKETBALL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-walking"></i>
+                            <span>WALKING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-utensils"></i>
+                            <span>COOKING</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Projects Section-->
+    <section id="proyectos" class="proyectos">
+        <div class="container">
+        <h2>Projects</h2>
+        <div class="proyectos-grid">
+            <div class="proyecto">
+                <h4>OCRJava</h4>
+                <p>Development of an advanced Optical Character Recognition (OCR) solution using Java and Tesseract.</p>
+                <a href="https://github.com/DanyelleGiraldo/OCRJava" target="_blank" class="btn-proyecto">View Project</a>
+            </div>
+            <div class="proyecto">
+                <h4>AirportAgency</h4>
+                <p>Flight and aircraft management project. Using JDBC, hexagonal architecture, vertical slicing, and MySQL.</p>
+                <a href="https://github.com/DanyelleGiraldo/AirportAgency" target="_blank" class="btn-proyecto">View Project</a>
+            </div>
+            <div class="proyecto">
+                <h4>Passion</h4>
+                <p>An online e-commerce platform for managing a hair product store</p>
+                <a href="https://github.com/DanyelleGiraldo/Passion.github.io" target="_blank" class="btn-proyecto">View Project</a>
+            </div>
+        </div>
+        <div class="ver-mas">
+            <a href="./proyectos-ingles.html" id="ver-mas" class="btn-ver-mas">See More</a>
+        </div>
+    </div>
+</section>
+
+    <!--Skills Section-->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="./images/java.png" alt="" class="skills-icon">
+                    <h4>Java</h4>
+                    <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <img src="./images/springboot.png" alt="" class="skills-icon">
+                    <h4>Spring Boot</h4>
+                    <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <img src="./images/javascript.png" alt="" class="skills-icon">
+                    <h4>JavaScript</h4>
+                    <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <img src="./images/Mysql.png" alt="" class="skills-icon">
+                    <h4>MySQL</h4>
+                    <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill">
+                    <img src="./images/html.png" alt="" class="skills-icon">
+                    <h4>HTML & CSS</h4>
+                    <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido_seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <div class="col">
+                    <form action="https://formsubmit.co/danyellesgiraldoj@gmail.com" method="POST">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <input type="text" id="phone" name="phone" placeholder="Phone" required>
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea id="coments" name="coments" placeholder="Message" cols="30" rows="5" required></textarea>
+                        <button type="submit" class="btn-primary">
+                            Send Message
+                        </button>
+                        
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a target="_blank" href="https://www.linkedin.com/in/danyelle-steven-giraldo-jimenez-99683a2a5/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a target="_blank" href="https://github.com/DanyelleGiraldo"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
